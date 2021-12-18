@@ -1,0 +1,94 @@
+PImage a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, letterx, lettery, letterz;
+String input = "b";
+
+LetterGenerator lg1, lg2, lg3, lg4, lg5, lg6, lg7, lg8, lg9, lg10, lg11, lg12, lg13, lg14, lg15, lg16, lg17, lg18, lg19, lg20, lg21, lg22, lg23, lg24, lg25, lg26, lg27;
+
+void setup() {
+  size(800, 600, P2D);
+  
+  a = loadImage("a.png");
+  b = loadImage("b.png");
+  c = loadImage("c.png");
+  d = loadImage("d.png");
+  e = loadImage("e.png");
+  f = loadImage("f.png");
+  g = loadImage("g.png");
+  h = loadImage("h.png");
+  i = loadImage("i.png");
+  j = loadImage("j.png");
+  k = loadImage("k.png");
+  l = loadImage("l.png");
+  m = loadImage("m.png");
+  n = loadImage("n.png");
+  o = loadImage("o.png");
+  p = loadImage("p.png");
+  q = loadImage("q.png");
+  r = loadImage("r.png");
+  s = loadImage("s.png");
+  t = loadImage("t.png");
+  u = loadImage("u.png");
+  v = loadImage("v.png");
+  w = loadImage("w.png");
+  letterx = loadImage("letterx.png");
+  lettery = loadImage("lettery.png");
+  letterz = loadImage("letterz.png");
+  
+  lg1 = new LetterGenerator("a", 0, 0);
+  lg2 = new LetterGenerator("b", 200, 50);
+  lg3 = new LetterGenerator("c", 400, 100);
+  lg4 = new LetterGenerator("d", 600, 150);
+  lg5 = new LetterGenerator("e", 800, 200);
+  lg6 = new LetterGenerator("f", 1000, 250);
+  lg7 = new LetterGenerator("g", 1200, 300);
+  lg8 = new LetterGenerator("h", 1400, 350);
+  lg9 = new LetterGenerator("i", 1600, 400);
+  lg10 = new LetterGenerator("j", 1800, 450);
+  lg11 = new LetterGenerator("k", 2000, 500);
+  lg12 = new LetterGenerator("l", 2200, 550);
+  lg13 = new LetterGenerator("m", 2400, 600);
+  lg14 = new LetterGenerator("n", 2600, 650);
+  lg15 = new LetterGenerator("o", 2800, 700);
+  lg16 = new LetterGenerator("p", 3000, 750);
+  lg17 = new LetterGenerator("q", 3200, 800);
+  lg18 = new LetterGenerator("r", 3400, 850);
+  lg19 = new LetterGenerator("s", 3600, 900);
+  lg20 = new LetterGenerator("t", 3800, 950);
+  lg21 = new LetterGenerator("u", 4000, 1000);
+  lg22 = new LetterGenerator("v", 4200, 1050);
+  lg23 = new LetterGenerator("w", 4400, 1100);
+  lg24 = new LetterGenerator("letterx", 4600, 1150);
+  lg26 = new LetterGenerator("lettery", 4800, 1200);
+  lg27 = new LetterGenerator("letterz", 5000, 1250);
+}
+
+void draw() {
+  background(127);
+  
+  lg1.draw();
+  lg2.draw();
+  lg3.draw();
+  lg4.draw();
+  lg5.draw();
+  lg6.draw();
+  lg7.draw();
+  lg8.draw();
+  lg9.draw();
+  lg10.draw();
+  lg11.draw();
+  lg12.draw();
+  lg13.draw();
+  lg14.draw();
+  lg15.draw();
+  lg16.draw();
+  lg17.draw();
+  lg18.draw();
+  lg19.draw();
+  lg20.draw();
+  lg21.draw();
+  lg22.draw();
+  lg23.draw();
+  lg24.draw();
+  lg25.draw();
+  lg26.draw();
+  lg27.draw();
+}
